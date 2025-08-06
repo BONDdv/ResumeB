@@ -18,40 +18,23 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
           <ProjectsCard
-            title="SOCIAL MEDIA CLONE"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            title="Landing Page Web"
+            des="This project was developed using HTML, CSS, and JavaScript, structured as a single-page website. "
             src={projectOne}
+            href="https://github.com/BONDdv/landing-Page.git"
           />
           <ProjectsCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            title="Expense Tracker API"
+            des="Expense Tracker API is a RESTful API designed to manage users' income and expenses. It supports adding, deleting, viewing summaries, and downloading Excel files. Users are required to register or log in before accessing the service."
             src={projectTwo}
+            href="https://github.com/BONDdv/Expense-tracker.git"
           />
           <ProjectsCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            title="ThinkBoard Web App"
+            des="It is a full-stack web application developed using the MERN stack."
             src={projectThree}
-          />
-          <ProjectsCard
-            title="SOCIAL MEDIA CLONE"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectThree}
-          />
-          <ProjectsCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
-          />
-          <ProjectsCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectTwo}
+            href="https://github.com/BONDdv/landing-Page.git"
+            demo="#"
           />
         </div>
       </FadeIn>

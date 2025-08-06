@@ -1,67 +1,30 @@
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
-const Experience = () => {
+const Education = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-5 lgl:gap-10"
     >
+      {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Work Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="software developer"
+            subTitle="proalpha solutions (thailand) co. ltd (Mar – Jul 2024)"
+            result="Voluntary resignation"
+            des="During this period, I gained experience in ERP software development using Progress 4GL, customized to fit the company's internal systems. However, the entire frontend and backend architecture was fixed and did not allow for creating or designing new systems. As my goal is to work on innovative UI and system design, I decided to resign voluntarily to pursue opportunities more aligned with my interests."
           />
-          <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
-          />
-          <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
+          
         </div>
-      </div>
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
-        </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-          />
-          <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
-        </div>
-      </div>
+      </div>     
     </motion.div>
   );
 };
 
-export default Experience;
+export default Education;
