@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 interface Props {
   title: string;
   des: string;
-  src: string;
+  src?: string;
   href?: string;
   demo?: string;
 }
