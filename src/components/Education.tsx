@@ -17,7 +17,6 @@ const Education = () => {
           <ResumeCard
             title="electrical engineering"
             subTitle="prince of songkla university (2018 - 2022)"
-            result="2.55/4"
             des="During this time, I have also been involved in small-scale projects related to IoT and electrical systems, including coding to control electrical devices. These experiences have helped me strengthen my understanding of how software can interact with hardware in practical applications."
           />
            <ResumeCard

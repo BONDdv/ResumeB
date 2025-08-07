@@ -33,8 +33,8 @@ const Projects = () => {
             title="ThinkBoard Web App"
             des="It is a full-stack web application developed using the MERN stack."
             src={projectThree}
-            href="https://github.com/BONDdv/landing-Page.git"
-            demo="#"
+            href="https://github.com/BONDdv/mern_ThinkBoard.git"
+            demo="https://mern-thinkboard-d9e3.onrender.com"
           />
         </div>
       </FadeIn>
