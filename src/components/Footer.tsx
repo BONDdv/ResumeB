@@ -1,12 +1,12 @@
 import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
-import { logo } from "../assets";
+
 import { FadeIn } from "./FadeIn";
 
 const Footer = () => {
   return (
     <FadeIn className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+        
         <div className="flex gap-4">
           <a href="https://www.youtube.com/@reactjsBD" target="_blank">
             <span className="bannerIcon">
