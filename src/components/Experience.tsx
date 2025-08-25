@@ -16,7 +16,7 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="software developer"
-            subTitle="proalpha solutions (thailand) co. ltd (Mar – Jul 2024)"
+            subTitle="proalpha solutions (thailand) co. ltd (Mar – Jul 2025)"
             result="Voluntary resignation"
             des="During this period, I gained experience in ERP software development using Progress 4GL, customized to fit the company's internal systems. However, the entire frontend and backend architecture was fixed and did not allow for creating or designing new systems. As my goal is to work on innovative UI and system design, I decided to resign voluntarily to pursue opportunities more aligned with my interests."
           />
